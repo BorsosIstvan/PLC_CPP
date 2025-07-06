@@ -19,3 +19,15 @@ Dit project simuleert een kleine PLC met een TON-timer en Modbus RTU ondersteuni
 - HMI software die Modbus RTU ondersteunt
 
 ## 🗂️ Projectstructuur
+
+
+## 🚀 Compileren en starten
+
+### Gebruik VS Code:
+Er is een `tasks.json` aanwezig onder `.vscode/`.
+
+Druk op `Ctrl+Shift+B` → *"Build en Run"*
+
+### Of gebruik Makefile:
+```bash
+make
