@@ -28,10 +28,11 @@ Er is een `tasks.json` aanwezig onder `.vscode/`.
 Druk op `Ctrl+Shift+B` → *"Build en Run"*
 
 ### Of gebruik Makefile:
-```bash
-make
 
-📡 Modbus instellingen
+make
+De executable staat dan in build/programma.exe.
+
+## 📡 Modbus instellingen
 Baudrate: 9600
 
 Poort: COM6 (pas aan in setup())
@@ -40,5 +41,5 @@ Slave ID: 1
 
 Gebruik bijvoorbeeld een HMI zoals ModbusPoll of Weintek EasyBuilder
 
-📜 Licentie
+## 📜 Licentie
 MIT-licentie – Vrij te gebruiken en aan te passen.
