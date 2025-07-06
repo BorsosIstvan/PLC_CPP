@@ -30,6 +30,14 @@ Druk op `Ctrl+Shift+B` → *"Build en Run"*
 ### Of gebruik Makefile:
 
 make
+
+Gebruik:
+
+make → compileert
+
+make run → compileert en draait
+
+make clean → verwijdert build/
 De executable staat dan in build/programma.exe.
 
 ## 📡 Modbus instellingen
