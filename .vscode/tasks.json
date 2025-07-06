@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build en Run",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-Ilib",
+        "main.cpp",
+        "lib/myserial.cpp",
+        "lib/myplc.cpp",
+        "lib/ModbusRTUSlave.cpp",
+        "lib/ton.cpp",
+        "-o",
+        "build/programma.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Compileert en start je programma"
+    }
+  ]
+}
