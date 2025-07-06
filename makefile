@@ -1,9 +1,5 @@
-
----
-
 ## ✅ `Makefile`
 
-```makefile
 CXX = g++
 CXXFLAGS = -Ilib -Wall -Wextra
 SRC = main.cpp lib/myserial.cpp lib/myplc.cpp lib/ModbusRTUSlave.cpp lib/ton.cpp

@@ -24,6 +24,7 @@ void setup(){
     toff.setPT(3000);
     plc.setQX(1, true);
     plc.setQX(0, true); // licht aan
+    plc.setIW(0, 16384);
 }
 
 void loop() {
