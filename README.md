@@ -20,7 +20,6 @@ Dit project simuleert een kleine PLC met een TON-timer en Modbus RTU ondersteuni
 
 ## 🗂️ Projectstructuur
 
-
 ## 🚀 Compileren en starten
 
 ### Gebruik VS Code:
@@ -31,3 +30,15 @@ Druk op `Ctrl+Shift+B` → *"Build en Run"*
 ### Of gebruik Makefile:
 ```bash
 make
+
+📡 Modbus instellingen
+Baudrate: 9600
+
+Poort: COM6 (pas aan in setup())
+
+Slave ID: 1
+
+Gebruik bijvoorbeeld een HMI zoals ModbusPoll of Weintek EasyBuilder
+
+📜 Licentie
+MIT-licentie – Vrij te gebruiken en aan te passen.
