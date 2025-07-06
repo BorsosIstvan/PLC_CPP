@@ -1,0 +1,10 @@
+# Binaries
+build/
+*.exe
+
+# VSCode
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db

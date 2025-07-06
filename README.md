@@ -19,4 +19,3 @@ Dit project simuleert een kleine PLC met een TON-timer en Modbus RTU ondersteuni
 - HMI software die Modbus RTU ondersteunt
 
 ## 🗂️ Projectstructuur
-
