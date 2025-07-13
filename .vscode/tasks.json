@@ -12,6 +12,7 @@
         "lib/myplc.cpp",
         "lib/ModbusRTUSlave.cpp",
         "lib/ton.cpp",
+        "lib/toff.cpp",
         "-o",
         "build/programma.exe"
       ],
